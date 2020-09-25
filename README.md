@@ -1,1 +1,6 @@
-# Data_Mining_Note
+---
+description: Note took from class
+---
+
+# Data Mining
+
