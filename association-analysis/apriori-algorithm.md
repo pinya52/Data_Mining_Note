@@ -19,7 +19,7 @@ Here we can consider superset as P and subset as Q
 
 * a special case of **anti-monotone** property
   * if a set cannot pass a test, all its supersets will fain the same test
-* 
+
 ## Example
 
 | TID | Items |
