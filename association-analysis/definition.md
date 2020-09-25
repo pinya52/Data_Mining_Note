@@ -1,23 +1,15 @@
 ---
-description: >-
-  Finding association relationships among sets of items or objects in
-  transactional or relational DB
+description: Definition of Association Analysis
 ---
 
-# Association Analysis
-
-## Example
-
-#### Market basket analysis \(association rule mining\)
-
-Given a set of trans. Find rules that will predict the occurrence of items based on the occurrences of other items in the trans. \( {Diaper} -&gt; {Beer} \)
+# Definition
 
 ## Formal Definitions
 
 * I = {i1, i2, i3, ... , in}, the set of all items
 * T ⊆ I, a transaction
 * D, a set of T, transaction DB
-* Association rul: A-&gt;B, A⊂I, B⊂I, A∩B = ø
+* Association rule: A-&gt;B, A⊂I, B⊂I, A∩B = ø
 * Support \(A-&gt;B\) = P\(A∪B\)
   * Fraction of trans. that contain an item set
 * confidence \(A-&gt;B\) = P\(B\|A\) = P\(A∪B\)/P\(A\)
@@ -37,8 +29,4 @@ Given a set of trans. T, the goal of association rule mining is to find all rule
 
 * support ≥ min-sup threshold
 * confidence ≥ min-conf threshold
-
-
-
-
 

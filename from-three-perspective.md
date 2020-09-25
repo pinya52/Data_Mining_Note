@@ -12,7 +12,7 @@
       2. Definition and representation of cluster chosen
       3. Clustering algorithms
 
-## **從Input角度來看   Database to works on**
+## **從Input角度來看   Database to Works on**
 
 1. Relational Data
 2. Transactional Data
